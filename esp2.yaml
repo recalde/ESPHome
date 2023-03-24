@@ -24,6 +24,10 @@ wifi:
 
 captive_portal:
 
+# EK8477 - 38khz IR Receiver Sensor
 remote_receiver:
   pin: D1
   dump: all
+  
+# EK8477 - 38khz IR Transmitter Module 
+# TBD
