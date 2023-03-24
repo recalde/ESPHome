@@ -5,10 +5,8 @@ esphome:
 esp8266:
   board: d1_mini
 
-# Enable logging
 logger:
 
-# Enable Home Assistant API
 api:
   encryption:
     key: "changeit"
@@ -26,12 +24,14 @@ wifi:
 
 captive_portal:
 
+# HC-SR501 PIR Sensor
 binary_sensor:
   - platform: gpio
     pin: D4
     name: "PIR Sensor"
     device_class: motion
 
+# Photoresistor (Photocell)
 sensor:
   - platform: adc
     pin: A0
