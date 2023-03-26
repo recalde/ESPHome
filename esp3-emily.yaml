@@ -22,7 +22,7 @@ wifi:
 
   ap:
     ssid: "Esp3-Emily Fallback Hotspot"
-    password: "KRoWrXJVM7Bx"
+    password: "changeit"
 
 captive_portal:
 
